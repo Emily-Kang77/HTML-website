@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.header {
+    width: 100%;
+    padding: 60px 0;
+    text-align: center;
+    background: #33cccc;
+    color: black;
+}
+
+.btn-bgstroke {
+    font-size: 20px;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 300;
+    margin-top: 30px; 
+  }
