@@ -5,11 +5,30 @@ body {
 }
 
 .header {
-    width: 100%;
+    width: 40px;
+    height: 200px;
     padding: 60px 0;
-    text-align: center;
+    text-align: left;
     background: #33cccc;
-    color: black;
+    color:whi;
+}
+
+.sidebar > ul > li {
+    list-style: none;
+}
+
+li {
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
 }
 
 .btn-bgstroke {
@@ -22,3 +41,89 @@ body {
     font-weight: 300;
     margin-top: 30px; 
   }
+
+/* HEADER CODE */
+/* header {
+    background-color: #99ccff;
+    width: 100%;
+    padding: 0.2rem;
+} */
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background: #054fb9; 
+    text-align: center;
+}
+
+.sidebar-links {
+    text-align: left;
+}
+
+.sidebar > div {
+    color: white;
+}
+
+#links > li > a {
+    color: white;
+}
+
+#profile-picture {
+    width: 70%;
+    padding: 10px;
+    text-align: center;
+}
+
+.pill {
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 15%;
+    margin-bottom: 10px;
+    border-radius: 0.8em;
+    padding: 0.3em 0.5em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.pill:hover {
+    background: rgb(255, 200, 200);
+}
+
+.flex-container {
+    display: flex;
+}
+
+.my-text {
+    flex-grow: 1;
+    position: relative;
+    margin-left: 220px;
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+
+/* .sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+} */
+
+
+
+/* .navbar {
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+
+
+

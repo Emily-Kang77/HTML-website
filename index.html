@@ -1,26 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <section class="header">
-        <h1>Emily Kang's Website</h1>
-        <a class="btn-bgstroke">Some button here</a>
-        <a href="projects.html"> Resume </a>
-    </section>
-
-    <div>
-
+    
+    <!-- Make this sidebar reusable with js... -->
+    <div class="sidebar">
+        <div>
+            <img src="face.png" id="profile-picture" alt="My face">
+            <h3>Emily Kang</h3>
+        </div>
+        
+        
+        <ul class="sidebar-links">
+            <li><button type="button" class="pill" onclick="location.href='index.html'">About</button></li>
+            <li><button type="button" onclick="location.href='projects.html'" class="pill">Projects</button></li>
+            <li><button type="button" onclick="location.href='gallery.html'" class="pill">Gallery</button></li>
+        </ul>
     </div>
 
-    <img src="face-here">
+    <div class="my-text">
+        Hey I'm Emily and I'm a junior in CS at the University of Washington.
+    </div>
+    
 
-    <p class="about-me">
-        Hi, I'm a junior majoring in CS. I'm interested in . . . .
-    </p>
+    <!-- <div>
+        <p class="about-me">
+            Hi, I'm Emily Kang, a junior majoring in CS. I'm interested in. . .  
+        </p>
+    </div> -->
+
+    
+
+    
 </body>
 
 </html>
