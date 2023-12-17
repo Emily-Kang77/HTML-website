@@ -9,3 +9,5 @@
 [ ] Use grid for the gallery of stuff
 
 [ ] Look into Github file hosting... or use my custom domain. 
+
+[ ] Add social media logos like github, linkedin.
