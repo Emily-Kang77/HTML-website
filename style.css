@@ -94,9 +94,10 @@ a:hover {
     background: rgb(255, 200, 200);
 }
 
-.flex-container {
+/* .flex-container {
     display: flex;
-}
+    align-items: row;
+} */
 
 .my-text {
     flex-grow: 1;
