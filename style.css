@@ -6,6 +6,12 @@ body {
     color: rgb(216, 216, 216) */
 }
 
+ion-icon {
+    color: white;
+    --ionicon-stroke-width: 18px;
+    font-size: 23px;
+}
+
 .header {
     width: 40px;
     height: 200px;
@@ -147,6 +153,8 @@ h1 {
     /* flex: 1 1 calc(100% - 50px); */
     width: 40%;
 }
+
+
 
 /* .sidebar {
     display: flex;
